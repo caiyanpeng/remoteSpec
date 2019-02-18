@@ -1,0 +1,16 @@
+PODS:
+  - baseModularzition (0.1.0)
+
+DEPENDENCIES:
+  - baseModularzition (from `../`)
+
+EXTERNAL SOURCES:
+  baseModularzition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  baseModularzition: 7f86afcc17d8a9288ded58befd30d0932df8601e
+
+PODFILE CHECKSUM: f46e8af28b311d946d56245c3dbf39ba29e1cbec
+
+COCOAPODS: 1.5.3

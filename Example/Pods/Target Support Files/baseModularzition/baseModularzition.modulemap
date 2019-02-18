@@ -1,0 +1,6 @@
+framework module baseModularzition {
+  umbrella header "baseModularzition-umbrella.h"
+
+  export *
+  module * { export * }
+}

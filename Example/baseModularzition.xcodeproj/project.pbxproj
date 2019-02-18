@@ -62,11 +62,11 @@
 		7FB5BEB528CFFE18C5DED5E6 /* Pods_baseModularzition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baseModularzition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		970A472221164DF9920D4550 /* Pods-baseModularzition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseModularzition_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-baseModularzition_Example/Pods-baseModularzition_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A691F1E5760776EA2102F9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B9E3FD3175BE9A19B56F5BE8 /* baseModularzition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = baseModularzition.podspec; path = ../baseModularzition.podspec; sourceTree = "<group>"; };
+		9A691F1E5760776EA2102F9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9E3FD3175BE9A19B56F5BE8 /* baseModularzition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = baseModularzition.podspec; path = ../baseModularzition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAD03FE394A13AAC6B60B048 /* Pods_baseModularzition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baseModularzition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD956F4EB3D513CBB6E737B7 /* Pods-baseModularzition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseModularzition_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-baseModularzition_Tests/Pods-baseModularzition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F893C922AA02129F99455BE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F893C922AA02129F99455BE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = githubknows;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J97MBL2CBZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = 3768A0218BAC419C3C286673 /* Pods-baseModularzition_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J97MBL2CBZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "baseModularzition/baseModularzition-Prefix.pch";
 				INFOPLIST_FILE = "baseModularzition/baseModularzition-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = 970A472221164DF9920D4550 /* Pods-baseModularzition_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J97MBL2CBZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "baseModularzition/baseModularzition-Prefix.pch";
 				INFOPLIST_FILE = "baseModularzition/baseModularzition-Info.plist";
