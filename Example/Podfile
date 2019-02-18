@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'baseModularzition_Example' do
+  pod 'baseModularzition', :path => '../'
+
+  target 'baseModularzition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
