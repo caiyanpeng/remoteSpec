@@ -1,9 +1,9 @@
 {
   "name": "baseModularzition",
   "version": "0.1.0",
-  "summary": "A short description of baseModularzition.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/githubknows/baseModularzition",
+  "summary": "create base mudular for baseModularization.",
+  "description": "Base module is required for other module.",
+  "homepage": "https://github.com/caiyanpeng/remoteSpec",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "githubknows": "1104990855@qq.com"
   },
   "source": {
-    "git": "https://github.com/githubknows/baseModularzition.git",
+    "git": "git@github.com:caiyanpeng/remoteSpec.git",
     "tag": "0.1.0"
   },
   "platforms": {

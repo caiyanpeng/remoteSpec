@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Person.h"
 
 FOUNDATION_EXPORT double baseModularzitionVersionNumber;
 FOUNDATION_EXPORT const unsigned char baseModularzitionVersionString[];

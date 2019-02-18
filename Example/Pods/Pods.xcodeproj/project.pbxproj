@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079D7F12DFD24F8B4EF33F378BB13E38 /* baseModularzition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 400C80B0C337AB4CD2BB2979FCE5DFFE /* baseModularzition-dummy.m */; };
+		02933A6B4C6E4D34AAC3F75041D19752 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C30CF10D12D67CF7F1FCC763F8F28EF8 /* Person.m */; };
+		02D5D8D17861C2C633FEA09F646B1EE4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 28214E787563DF1A9E9DD8CBF3474F4A /* ReplaceMe.m */; };
 		161F3C2C9055D5025884F11245FAC425 /* Pods-baseModularzition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3EB593D4AB5FF11BEF0A3388473CA /* Pods-baseModularzition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E0E23100213EFFCA793C41C00AED52 /* baseModularzition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1FBA0300D458EA52F65C1384A37031 /* baseModularzition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		230F75094E32178D73148BA47EA4FF38 /* Pods-baseModularzition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDEC3DCA5C683812304FB7407B10568E /* Pods-baseModularzition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA8274D11C2E63A4B550CD803ECEEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		5A99CFE517F540D6B56961A80D257D59 /* baseModularzition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5358AF50EEBDDD4F19E0E9853FA1B3EF /* baseModularzition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687A4F9142DBAE2E9C830F686E9D9F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7E5793C092FD673DAD18BC0F47F6B519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8825E0E6FFBEA78E924F169E766FB14F /* Pods-baseModularzition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BB88884B07D344503D129C8B530463 /* Pods-baseModularzition_Tests-dummy.m */; };
 		89A55CC672F43556CD78730AA4C921FE /* Pods-baseModularzition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E6A6941AD03F48F55AB2F9FC07957 /* Pods-baseModularzition_Example-dummy.m */; };
-		AB333F3B3F0C96799D98EF272CA34E9E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDDA92798C589061EF84B8ADD91E6 /* ReplaceMe.m */; };
-		BCC4E9D0D72066EBEFF9EA546094F12B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A168A29C624CB69EA3DC03B3B79E1441 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B1C601E7D97AA1C1F80BEF41D5FCEE /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CF5C09D05F14565C426CAD7B44EB3D /* baseModularzition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BA137BE38EF9E29C402F9898E394FB /* baseModularzition-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0441542F458A0834BECFBFC0C12EE4CB;
+			remoteGlobalIDString = B75D7D2B70DDED858C0F86A73C2BAA2E;
 			remoteInfo = baseModularzition;
 		};
 		CB5726D0CD9E17AE7CB986EDCCBCB845 /* PBXContainerItemProxy */ = {
@@ -39,35 +41,37 @@
 /* Begin PBXFileReference section */
 		00C38132AA5EEF5071E8AB01B7DC0E17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05BB88884B07D344503D129C8B530463 /* Pods-baseModularzition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-baseModularzition_Tests-dummy.m"; sourceTree = "<group>"; };
+		14BBA6366DEF645F0CA6F4485816B5B7 /* baseModularzition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = baseModularzition.modulemap; sourceTree = "<group>"; };
 		1B7F19C0AC1EE8F62205275CA11F7F0B /* Pods-baseModularzition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-baseModularzition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F79F9BA8E8ACFAC7AAEA0D260A8E9B5 /* Pods-baseModularzition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-baseModularzition_Example-frameworks.sh"; sourceTree = "<group>"; };
-		39C60513D7F70842AD084E6191DA3166 /* baseModularzition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = baseModularzition.xcconfig; sourceTree = "<group>"; };
-		3E80DB68CB9DED236D56AB3ABCA55405 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		400C80B0C337AB4CD2BB2979FCE5DFFE /* baseModularzition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "baseModularzition-dummy.m"; sourceTree = "<group>"; };
-		5358AF50EEBDDD4F19E0E9853FA1B3EF /* baseModularzition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "baseModularzition-umbrella.h"; sourceTree = "<group>"; };
+		28214E787563DF1A9E9DD8CBF3474F4A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = baseModularzition/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		52B1C601E7D97AA1C1F80BEF41D5FCEE /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = baseModularzition/Classes/Person.h; sourceTree = "<group>"; };
+		52E887DDE541495590574FC1930B4C27 /* baseModularzition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = baseModularzition.xcconfig; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5D2F341BC41023BC06D38B249863BFE1 /* baseModularzition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = baseModularzition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DAA9CC16424930A956D78DBD9C1EDAE /* Pods-baseModularzition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-baseModularzition_Tests-resources.sh"; sourceTree = "<group>"; };
 		5E3C2F622AE79E7997679586F543F977 /* baseModularzition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = baseModularzition.framework; path = baseModularzition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63BE552193DDFCB84A45924D77A73A8A /* baseModularzition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "baseModularzition-prefix.pch"; sourceTree = "<group>"; };
-		69BB42F788DFAF8AA19C2A1003D1386B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		651E435256C70FE79E81BB1576C475F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CEF42379AAA800CBC9019C07585353D /* Pods-baseModularzition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-baseModularzition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7422F616741476F69F486A5B62D77430 /* Pods-baseModularzition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-baseModularzition_Example.modulemap"; sourceTree = "<group>"; };
+		75BA137BE38EF9E29C402F9898E394FB /* baseModularzition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "baseModularzition-dummy.m"; sourceTree = "<group>"; };
+		77DAB2B7DA2FB7EF4E3C7094E4106AE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7BE8E89FA2FA6B6CF0CA374AA1AA709D /* Pods-baseModularzition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-baseModularzition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7C9DDEBE239CE1588A84305DE0928E67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		83771340DD7CDCBEFF2503438ED0FD80 /* Pods-baseModularzition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-baseModularzition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93498A62C2E9A727D0A0B57E5ED618E4 /* Pods-baseModularzition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-baseModularzition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97128BC1D48B91ED59B4D1AFF26A4B3D /* Pods-baseModularzition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-baseModularzition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D1FBA0300D458EA52F65C1384A37031 /* baseModularzition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "baseModularzition-umbrella.h"; sourceTree = "<group>"; };
 		B8DAF1B7832E9F3423F12626686675EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB4761BAC114793289AB348D42B81ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD423EA0BE790FC0665EE1CD881042F4 /* Pods-baseModularzition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-baseModularzition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BE4543E21C558C7422E5DEA56147322A /* baseModularzition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = baseModularzition.modulemap; sourceTree = "<group>"; };
-		BEAFDDA92798C589061EF84B8ADD91E6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = baseModularzition/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BF8C96738AB14A573A26D7DF85A66FC5 /* Pods-baseModularzition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-baseModularzition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2E692AEE091996CE14F3D7626FEDE52 /* Pods_baseModularzition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_baseModularzition_Example.framework; path = "Pods-baseModularzition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30CF10D12D67CF7F1FCC763F8F28EF8 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = baseModularzition/Classes/Person.m; sourceTree = "<group>"; };
 		D48E6A6941AD03F48F55AB2F9FC07957 /* Pods-baseModularzition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-baseModularzition_Example-dummy.m"; sourceTree = "<group>"; };
 		DDEC3DCA5C683812304FB7407B10568E /* Pods-baseModularzition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-baseModularzition_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E14BE86748F2099571688FE7892962E1 /* Pods-baseModularzition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-baseModularzition_Tests.modulemap"; sourceTree = "<group>"; };
+		E47D8E6DBD89CE8A90B4CCE696C8CC1A /* baseModularzition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "baseModularzition-prefix.pch"; sourceTree = "<group>"; };
+		E493B8D1B109BA893BCECB06DC090DC6 /* baseModularzition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = baseModularzition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECA3EB593D4AB5FF11BEF0A3388473CA /* Pods-baseModularzition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-baseModularzition_Example-umbrella.h"; sourceTree = "<group>"; };
 		ED49A6E47C652DD20613BDDB25ED5E3E /* Pods_baseModularzition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_baseModularzition_Tests.framework; path = "Pods-baseModularzition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B592208D08132BA2F47597BA2D2400 /* Pods-baseModularzition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-baseModularzition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AA3DAF3ECC7A9628C68E5E205F12E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A4F9142DBAE2E9C830F686E9D9F0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1356CB13A613656633E305010BF15CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,23 +103,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA87AC90CED96FF6067266EABAFBAF5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCC4E9D0D72066EBEFF9EA546094F12B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DF3296BBADEF9A7AC77A181C07C1406 /* Pod */ = {
+		16A438F1BA50BD1E63B9544E3304E9AF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5D2F341BC41023BC06D38B249863BFE1 /* baseModularzition.podspec */,
-				69BB42F788DFAF8AA19C2A1003D1386B /* LICENSE */,
-				3E80DB68CB9DED236D56AB3ABCA55405 /* README.md */,
+				E493B8D1B109BA893BCECB06DC090DC6 /* baseModularzition.podspec */,
+				7C9DDEBE239CE1588A84305DE0928E67 /* LICENSE */,
+				77DAB2B7DA2FB7EF4E3C7094E4106AE8 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -138,40 +142,28 @@
 			path = "Target Support Files/Pods-baseModularzition_Tests";
 			sourceTree = "<group>";
 		};
-		68F129A756EFB763A56E3045F1FAEA86 /* Support Files */ = {
+		632C378F356751BE36AB3EC9354C643F /* baseModularzition */ = {
 			isa = PBXGroup;
 			children = (
-				BE4543E21C558C7422E5DEA56147322A /* baseModularzition.modulemap */,
-				39C60513D7F70842AD084E6191DA3166 /* baseModularzition.xcconfig */,
-				400C80B0C337AB4CD2BB2979FCE5DFFE /* baseModularzition-dummy.m */,
-				63BE552193DDFCB84A45924D77A73A8A /* baseModularzition-prefix.pch */,
-				5358AF50EEBDDD4F19E0E9853FA1B3EF /* baseModularzition-umbrella.h */,
-				BB4761BAC114793289AB348D42B81ABD /* Info.plist */,
+				52B1C601E7D97AA1C1F80BEF41D5FCEE /* Person.h */,
+				C30CF10D12D67CF7F1FCC763F8F28EF8 /* Person.m */,
+				28214E787563DF1A9E9DD8CBF3474F4A /* ReplaceMe.m */,
+				16A438F1BA50BD1E63B9544E3304E9AF /* Pod */,
+				E552095D1D4FA31B3E730420133305FA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/baseModularzition";
+			name = baseModularzition;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FA15A2CD27E4CAC53A1F1FD892618FC4 /* Development Pods */,
+				B937B7B9A7918C1E92FBA66A5EF2BF1D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				AA58876DBEFF66F80448CA2F65D82B16 /* Products */,
 				99835B55871BB40F2B63403B858BA615 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8AFD5A58A1D5AC7AC6F52ADC095286EB /* baseModularzition */ = {
-			isa = PBXGroup;
-			children = (
-				BEAFDDA92798C589061EF84B8ADD91E6 /* ReplaceMe.m */,
-				5DF3296BBADEF9A7AC77A181C07C1406 /* Pod */,
-				68F129A756EFB763A56E3045F1FAEA86 /* Support Files */,
-			);
-			name = baseModularzition;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		91530A5F364665A5D16F60F50C579C78 /* Pods-baseModularzition_Example */ = {
@@ -211,6 +203,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B937B7B9A7918C1E92FBA66A5EF2BF1D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				632C378F356751BE36AB3EC9354C643F /* baseModularzition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,17 +219,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA15A2CD27E4CAC53A1F1FD892618FC4 /* Development Pods */ = {
+		E552095D1D4FA31B3E730420133305FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AFD5A58A1D5AC7AC6F52ADC095286EB /* baseModularzition */,
+				14BBA6366DEF645F0CA6F4485816B5B7 /* baseModularzition.modulemap */,
+				52E887DDE541495590574FC1930B4C27 /* baseModularzition.xcconfig */,
+				75BA137BE38EF9E29C402F9898E394FB /* baseModularzition-dummy.m */,
+				E47D8E6DBD89CE8A90B4CCE696C8CC1A /* baseModularzition-prefix.pch */,
+				9D1FBA0300D458EA52F65C1384A37031 /* baseModularzition-umbrella.h */,
+				651E435256C70FE79E81BB1576C475F6 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/baseModularzition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0ACA023E9DED2F9FA4C4D2458640083D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E0E23100213EFFCA793C41C00AED52 /* baseModularzition-umbrella.h in Headers */,
+				A168A29C624CB69EA3DC03B3B79E1441 /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C2A3EEFD008EA56533BD09B8A57236A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,35 +261,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6BD6FDD62ABE3A5CA68D156E5A16042 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A99CFE517F540D6B56961A80D257D59 /* baseModularzition-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0441542F458A0834BECFBFC0C12EE4CB /* baseModularzition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F37AAABDC34DD040DA0CD60E8A9A8255 /* Build configuration list for PBXNativeTarget "baseModularzition" */;
-			buildPhases = (
-				C6BD6FDD62ABE3A5CA68D156E5A16042 /* Headers */,
-				9ECDF5AFA9C267239879623D11F0A263 /* Sources */,
-				DA87AC90CED96FF6067266EABAFBAF5C /* Frameworks */,
-				93408BCCF5D5AB7F5FCFB597CE5BF0AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = baseModularzition;
-			productName = baseModularzition;
-			productReference = 5E3C2F622AE79E7997679586F543F977 /* baseModularzition.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		367988B28BB9A6E2748C5DC68CC475BC /* Pods-baseModularzition_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2870EF6133D15432A1AD19EAEE1F8F94 /* Build configuration list for PBXNativeTarget "Pods-baseModularzition_Tests" */;
@@ -313,6 +302,24 @@
 			productReference = C2E692AEE091996CE14F3D7626FEDE52 /* Pods_baseModularzition_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B75D7D2B70DDED858C0F86A73C2BAA2E /* baseModularzition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD679E3EB733B3CA3D1127ADAA73AE09 /* Build configuration list for PBXNativeTarget "baseModularzition" */;
+			buildPhases = (
+				0ACA023E9DED2F9FA4C4D2458640083D /* Headers */,
+				19C83E68869E9B022087B656337118A6 /* Sources */,
+				3AA3DAF3ECC7A9628C68E5E205F12E1C /* Frameworks */,
+				C1D2138336B94915DA8B2442ADFAF76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baseModularzition;
+			productName = baseModularzition;
+			productReference = 5E3C2F622AE79E7997679586F543F977 /* baseModularzition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0441542F458A0834BECFBFC0C12EE4CB /* baseModularzition */,
+				B75D7D2B70DDED858C0F86A73C2BAA2E /* baseModularzition */,
 				39367B528D43BA72BA7AB3E104B3B184 /* Pods-baseModularzition_Example */,
 				367988B28BB9A6E2748C5DC68CC475BC /* Pods-baseModularzition_Tests */,
 			);
@@ -349,14 +356,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93408BCCF5D5AB7F5FCFB597CE5BF0AE /* Resources */ = {
+		A53F7EB3C9A546BBB4FD024CF96929AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A53F7EB3C9A546BBB4FD024CF96929AF /* Resources */ = {
+		C1D2138336B94915DA8B2442ADFAF76E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,20 +373,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19C83E68869E9B022087B656337118A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CF5C09D05F14565C426CAD7B44EB3D /* baseModularzition-dummy.m in Sources */,
+				02933A6B4C6E4D34AAC3F75041D19752 /* Person.m in Sources */,
+				02D5D8D17861C2C633FEA09F646B1EE4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45707A9CDD65844AFA4BFF7EFA5C2A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89A55CC672F43556CD78730AA4C921FE /* Pods-baseModularzition_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ECDF5AFA9C267239879623D11F0A263 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				079D7F12DFD24F8B4EF33F378BB13E38 /* baseModularzition-dummy.m in Sources */,
-				AB333F3B3F0C96799D98EF272CA34E9E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +405,7 @@
 		CA89600784D9BB63C18D5C8096365783 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = baseModularzition;
-			target = 0441542F458A0834BECFBFC0C12EE4CB /* baseModularzition */;
+			target = B75D7D2B70DDED858C0F86A73C2BAA2E /* baseModularzition */;
 			targetProxy = 4EAD8EFD7AAF1E49AF0B003C12887AB5 /* PBXContainerItemProxy */;
 		};
 		D217A994C36CFA427C52E67C33544CD1 /* PBXTargetDependency */ = {
@@ -409,6 +417,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		20E0928FEA65E9D49A0D93705DAB47B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E887DDE541495590574FC1930B4C27 /* baseModularzition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/baseModularzition/baseModularzition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/baseModularzition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/baseModularzition/baseModularzition.modulemap";
+				PRODUCT_MODULE_NAME = baseModularzition;
+				PRODUCT_NAME = baseModularzition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		310EFDD0A788A41E3443309447B8377B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83771340DD7CDCBEFF2503438ED0FD80 /* Pods-baseModularzition_Example.debug.xcconfig */;
@@ -469,37 +508,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89912BA83C89927C56C64D4BB4554151 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C60513D7F70842AD084E6191DA3166 /* baseModularzition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/baseModularzition/baseModularzition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/baseModularzition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/baseModularzition/baseModularzition.modulemap";
-				PRODUCT_MODULE_NAME = baseModularzition;
-				PRODUCT_NAME = baseModularzition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -633,9 +641,9 @@
 			};
 			name = Release;
 		};
-		B10CC387DFBEB83EFC28D34ADF4246E6 /* Debug */ = {
+		C364F42B6360BF6C5D308C601578A924 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C60513D7F70842AD084E6191DA3166 /* baseModularzition.xcconfig */;
+			baseConfigurationReference = 52E887DDE541495590574FC1930B4C27 /* baseModularzition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,11 +756,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37AAABDC34DD040DA0CD60E8A9A8255 /* Build configuration list for PBXNativeTarget "baseModularzition" */ = {
+		CD679E3EB733B3CA3D1127ADAA73AE09 /* Build configuration list for PBXNativeTarget "baseModularzition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B10CC387DFBEB83EFC28D34ADF4246E6 /* Debug */,
-				89912BA83C89927C56C64D4BB4554151 /* Release */,
+				C364F42B6360BF6C5D308C601578A924 /* Debug */,
+				20E0928FEA65E9D49A0D93705DAB47B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
