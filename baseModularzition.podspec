@@ -23,6 +23,7 @@ Base module is required for other module.
 Base module is required for other module.
 Base module is required for other module.
 Base module is required for other module.
+baseModularization
                        DESC
 
   s.homepage         = 'https://github.com/caiyanpeng/remoteSpec'
