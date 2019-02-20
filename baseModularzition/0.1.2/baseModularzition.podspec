@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caiyanpeng' => '1104990855@qq.com' }
-  s.source           = { :git => 'https://github.com/caiyanpeng/remoteSpec.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/caiyanpeng/remoteSpec.git', :tag => '0.1.2' }
 
   s.ios.deployment_target = '8.0'
 
